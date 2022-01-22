@@ -7,20 +7,17 @@ import Starred from "./Pages/Starred";
 
 function App() {
   return (
-    <div>
-      <Navs />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/starred">
-          <Starred />
-        </Route>
-        <Route exact path="/about">
-          <About />
-        </Route>
-      </Switch>
-    </div>
+    <Switch>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route exact path="/starred">
+        <Starred />
+      </Route>
+      <Route exact path="/about">
+        <About />
+      </Route>
+    </Switch>
   );
 }
 
