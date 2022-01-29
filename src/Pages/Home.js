@@ -14,7 +14,7 @@ const Home = () => {
     setInput(ev.target.value);
   };
   const onSearch = () => {
-    apiGet(`search/${searchOption}?q=${input}`).then((result) =>
+    apiGet(`/search/${searchOption}?q=${input}`).then((result) =>
       setResults(result)
     );
   };
@@ -27,7 +27,6 @@ const Home = () => {
   const onRadioChange = (ev) => {
     setSearchOption(ev.target.value);
   };
-  console.log(searchOption);
   const resultsRender = () => {
     if (results && results.length === 0) {
       return <div>No Results</div>;

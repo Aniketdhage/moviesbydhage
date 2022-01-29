@@ -5,7 +5,7 @@ import { FlexGrid } from "../Styled";
 const ActorGrid = ({ data }) => {
   return (
     <FlexGrid>
-      {data.map(({ person }) => {
+      {data.map(({ person }) => (
         <ActorCard
           key={person.id}
           name={person.name}
@@ -14,8 +14,8 @@ const ActorGrid = ({ data }) => {
           deathday={person.deathday}
           gender={person.gender}
           image={person.image ? person.image.medium : IMAGE_NOT_FOUND}
-        />;
-      })}
+        />
+      ))}
     </FlexGrid>
   );
 };
