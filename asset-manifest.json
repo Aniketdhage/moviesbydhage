@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/moviesbydhage/static/css/main.b2586571.css",
-    "main.js": "/moviesbydhage/static/js/main.0305fe0f.js",
+    "main.js": "/moviesbydhage/static/js/main.1b17c828.js",
     "static/js/787.a5f4395f.chunk.js": "/moviesbydhage/static/js/787.a5f4395f.chunk.js",
     "index.html": "/moviesbydhage/index.html",
     "main.b2586571.css.map": "/moviesbydhage/static/css/main.b2586571.css.map",
-    "main.0305fe0f.js.map": "/moviesbydhage/static/js/main.0305fe0f.js.map",
+    "main.1b17c828.js.map": "/moviesbydhage/static/js/main.1b17c828.js.map",
     "787.a5f4395f.chunk.js.map": "/moviesbydhage/static/js/787.a5f4395f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2586571.css",
-    "static/js/main.0305fe0f.js"
+    "static/js/main.1b17c828.js"
   ]
 }
